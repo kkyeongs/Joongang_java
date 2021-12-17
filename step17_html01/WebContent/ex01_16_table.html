@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	table {
+		width: 100%;
+		border: 1px;
+		font-size: 14px;
+		border-color: red;
+		border-collapse: collapse;
+	}
+	table td, table th {
+		border: 1px solid red;
+	}
+	table>caption {
+		font-family: Ba안경고딕, 맑은고딕; /* 앞에것이 없으면 두번째꺼 */
+		font-size: 20px;
+		font-weight: 700; /* 글자 굵기  */
+		margin-bottom: 10px;
+	}
+</style>
+</head>
+<body>
+	<table border="1">
+		<caption align="top">교재 가격표</caption>
+		<thead>
+			<tr>
+				<th>서적명</th><th>출판사</th><th>가격</th><th>기타</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>HTML5</td><td>공갈닷컴</td><td>55,000</td><td rowspan="3">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>CSS3</td><td>남가람북스</td><td>32,000</td>
+			</tr>
+			<tr>
+				<td>JS</td><td>야매출판사</td><td>20,000</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2">합계</td><td colspan="2">107,000</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+</html>

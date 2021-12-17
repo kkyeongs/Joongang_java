@@ -1,0 +1,16 @@
+1. 바이트 단위 입출력 -- Stream으로 끝나는 클래스
+	InputStream
+	OutputStream
+	
+2. 문자 단위 입출력 -- er로 끝나는 클래스
+	Reader
+	Writer
+	
+3. 보내는 쪽 
+	InputStream/InputStreamReader를 통해서 입력을 받거나 파일에서 읽어서
+	BufferedWriter에 넣어서 내보내기
+	
+4. 받는 쪽
+	InputStream/InputStreamReader를 통해 데이터를 읽어 들여서
+	BufferedReader를 사용하여
+	PrintWriter를 통하여 화면에 출력 또는 파일에 출력
